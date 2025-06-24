@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <title>Arti Gebäudereinigung</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome 6.4 for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Main Stylesheets -->
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Smooth Scrolling -->
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+
+      .whatsapp-float {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #25D366;
+        color: white;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 28px;
+        z-index: 1000;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        animation: pulse 1.5s infinite;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .whatsapp-float:hover {
+        color: white;
+        text-decoration: none;
+        background-color: #1ebe5d;
+      }
+
+      @keyframes pulse {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.15); }
+        100% { transform: scale(1); }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Top Contact & Social Bar -->
+    <div class="wrap">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-12 col-md d-flex align-items-center">
+            <p class="mb-0 phone">
+              <span class="mailus">Telefon:</span>
+              <a href="tel:+4917621897246">+49 1738589541</a>
+              oder <span class="mailus">E-Mail:</span>
+              <a href="mailto:arbim.rushiti15@gmail.com">arbim.rushiti15@gmail.com</a>
+            </p>
+          </div>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="#home">Arti <span>Gebäudereinigung</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav">
+          <span class="fa fa-bars"></span> Menü
+        </button>
+        <div class="collapse navbar-collapse" id="ftco-nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active"><a href="#home" class="nav-link">Startseite</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">Über uns</a></li>
+            <li class="nav-item"><a href="#services" class="nav-link">Leistungen</a></li>
+            <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+            <li class="nav-item"><a href="#pricing" class="nav-link">Preise</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Kontakt</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div id="home" class="hero-wrap">
+      <div class="puzzle-container" id="puzzle"></div>
+      <div class="overlay"></div>
+      <div class="hero-content centered">
+          <h2 class="subheading">Überlassen Sie uns die Hausreinigung</h2>
+          <h1 class="mb-4">Wir übernehmen die Drecksarbeit, damit Sie es nicht tun müssen.</h1>
+        <p><a href="#contact" class="btn btn-primary py-2 px-4">Wir helfen gern! <span class="ion-ios-arrow-forward"></span></a></p>
+      </div>
+    </div>
+
+    <!-- Styles -->
+    <style>
+      .hero-wrap {
+        position: relative;
+        overflow: hidden;
+        height: 100vh;
+      }
+
+      .puzzle-container {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        z-index: 1;
+      }
+
+      .puzzle-piece {
+        background-size: 500% 500%;
+        background-repeat: no-repeat;
+        opacity: 0;
+      }
+
+      .overlay {
+        background: rgba(0, 0, 0, 0.4);
+        position: absolute;
+        top: 0; left: 0; right: 0; bottom: 0;
+        z-index: 2;
+      }
+
+      .hero-content.centered {
+        position: absolute;
+        top: 50%;
+        left: 25%;
+        transform: translate(-25%, -50%);
+        z-index: 3;
+        color: #ffffff;
+        text-align: center;
+        padding: 2rem;
+        max-width: 500px;
+      }
+
+      .hero-content.centered h1,
+      .hero-content.centered h2,
+      .hero-content.centered p {
+        color: #ffffff;
+        margin-bottom: 1rem;
+      }
+
+      .btn-primary {
+        background-color: #ffc107;
+        border: none;
+        color: black;
+        font-weight: bold;
+        border-radius: 4px;
+        transition: background 0.3s;
+        text-decoration: none;
+      }
+
+      .btn-primary:hover {
+        background-color: #e0a800;
+      }
+
+      @media (max-width: 768px) {
+        .hero-content.centered {
+          left: 50%;
+          transform: translate(-50%, -50%);
+          padding: 1rem;
+        }
+
+        .hero-content.centered h1 {
+          font-size: 1.5rem;
+        }
+      }
+    </style>
+
+    <!-- GSAP Puzzle Animation Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script>
+      const rows = 5, cols = 5;
+      const puzzleContainer = document.getElementById('puzzle');
+      const images = ['images/home1.png', 'images/home2.png'];
+      let currentIndex = 0;
+
+      function createPieces(imageUrl) {
+        puzzleContainer.innerHTML = '';
+        for (let row = 0; row < rows; row++) {
+          for (let col = 0; col < cols; col++) {
+            const piece = document.createElement('div');
+            piece.className = 'puzzle-piece';
+            piece.style.backgroundImage = `url(${imageUrl})`;
+            piece.style.backgroundPosition = `${(col * 100) / (cols - 1)}% ${(row * 100) / (rows - 1)}%`;
+            puzzleContainer.appendChild(piece);
+          }
+        }
+      }
+
+      function animatePiecesIn(pieces) {
+        pieces.forEach((piece, index) => {
+          const xDir = (Math.random() - 0.5) * 1000;
+          const yDir = (Math.random() - 0.5) * 1000;
+          gsap.fromTo(piece, {
+            x: xDir,
+            y: yDir,
+            opacity: 0,
+          }, {
+            x: 0,
+            y: 0,
+            opacity: 1,
+            delay: index * 0.06,
+            duration: 2.0,
+            ease: "power4.out"
+          });
+        });
+      }
+
+      function animatePiecesOut(pieces, onComplete) {
+        pieces.forEach((piece, index) => {
+          const xDir = (Math.random() - 0.5) * 1000;
+          const yDir = (Math.random() - 0.5) * 1000;
+          gsap.to(piece, {
+            x: xDir,
+            y: yDir,
+            opacity: 0,
+            delay: index * 0.03,
+            duration: 1.2,
+            ease: "power2.in",
+            onComplete: index === pieces.length - 1 ? onComplete : null
+          });
+        });
+      }
+
+      function cycleImages() {
+        const imageUrl = images[currentIndex];
+        createPieces(imageUrl);
+
+        const pieces = puzzleContainer.querySelectorAll('.puzzle-piece');
+        animatePiecesIn(pieces);
+
+        // Show image, wait, then remove
+        setTimeout(() => {
+          animatePiecesOut(pieces, () => {
+            currentIndex = (currentIndex + 1) % images.length;
+            cycleImages();
+          });
+        }, 5000); // stay visible for 5 seconds
+      }
+
+      // Start animation loop
+      cycleImages();
+    </script>
+
+    <!-- Über uns -->
+    <section id="about" class="ftco-section">
+      <div class="container">
+        <h2>Über uns</h2>
+        <div class="row d-flex no-gutters">
+          <div class="col-md-6 d-flex">
+            <div class="img d-flex align-items-center justify-content-center py-5 py-md-0" style="background-image:url(images/time.jpg);">
+              <div class="time-open-wrap">
+                <div class="desc p-4">
+                  <h2>Arbeitszeiten</h2>
+                  <div class="opening-hours">
+                    <h4>Öffnungszeiten:</h4>
+                    <p class="pl-3">
+                      <span><strong>Montag – Freitag:</strong> 08:00 – 18:00 Uhr</span><br>
+                      <span><strong>Samstag:</strong> 09:00 – 14:00 Uhr</span>
+                    </p>
+                    <h4>Ruhetage:</h4>
+                    <p class="pl-3">
+                      <span>Sonntag</span><br>
+                      <span>Feiertage</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="desc p-4 bg-secondary">
+                  <h3 class="heading">Für Notfälle</h3>
+                  <span class="phone">+49 1738589541</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 pl-md-5 pt-md-5">
+            <div class="row justify-content-start py-5">
+              <div class="col-md-12 heading-section ftco-animate">
+                <span class="subheading">Willkommen bei Arti Gebäudereinigung</span>
+                <h2 class="mb-4">Ihr Partner für Sauberkeit und Gartenpflege</h2>
+                <p>Arti Gebäudereinigung bietet Ihnen ein umfassendes Leistungsspektrum rund um die Reinigung und Pflege von Gebäuden und Außenanlagen. Ob Büroreinigung, Treppenhauspflege, Fensterreinigung oder Gartenarbeiten – wir erledigen jede Aufgabe gründlich, zuverlässig und mit höchstem Anspruch an Qualität.</p>
+                <p>Als erfahrenes Team stehen wir Ihnen mit flexiblen und maßgeschneiderten Lösungen zur Seite – für private Haushalte, Unternehmen oder öffentliche Einrichtungen.</p>
+              </div>
+            </div>
+            <div class="row ftco-counter py-5" id="section-counter">
+              <div class="col-md-6 col-lg-4 d-flex justify-content-center counter-wrap ftco-animate">
+                <div class="block-18">
+                  <div class="text">
+                    <strong class="number" data-number="15">0</strong>
+                  </div>
+                  <div class="text">
+                    <span>Jahre <br>Erfahrung</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 d-flex justify-content-center counter-wrap ftco-animate">
+                <div class="block-18">
+                  <div class="text">
+                    <strong class="number" data-number="800">0</strong>
+                  </div>
+                  <div class="text">
+                    <span>Zufriedene <br>Kund:innen</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 d-flex justify-content-center counter-wrap ftco-animate">
+                <div class="block-18">
+                  <div class="text">
+                    <strong class="number" data-number="1200">0</strong>
+                  </div>
+                  <div class="text">
+                    <span>Erledigte <br>Aufträge</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Verantwortlicher Kontakt -->
+    <section class="ftco-section py-0">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 d-flex flex-md-row flex-column w-100">
+
+            <!-- Owner Image -->
+            <div class="img-wrap w-100" style="max-width: 300px; flex-shrink: 0;">
+              <img src="images/owner.png" alt="Benjamin Jahić"
+                   style="width: 100%; height: 100%; max-height: 500px; object-fit: cover; border-radius: 10px 0 0 10px;">
+            </div>
+
+            <!-- Text Box -->
+            <div class="text-box text p-4 d-flex flex-column justify-content-center w-100"
+                 style="background-color: #0d1b2a; color: white; border-radius: 0 10px 10px 0; transition: background-color 0.3s;">
+              <h3 style="color: white;">Nazim Rushiti</h3>
+              <span class="position mb-2 d-block" style="color: #ddd;">Inhaber & Ansprechpartner</span>
+              <p style="color: #ccc;">Als Ihr persönlicher Ansprechpartner stehe ich Ihnen gerne bei allen Fragen zur Verfügung. Ich kümmere mich persönlich um Ihre Polstermöbel – mit Sorgfalt, Effizienz und dem Auge fürs Detail.</p>
+              <p>
+                <strong style="color: white;">Telefon:</strong>
+                <a href="tel:+4917621897246" style="color: white; text-decoration: underline;">+49 1738589541</a><br>
+                <strong style="color: white;">E-Mail:</strong>
+                <a href="mailto:arbim.rushiti15@gmail.com" style="color: white; text-decoration: underline;">arbim.rushiti15@gmail.com</a>
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Responsive and Hover Styling -->
+    <style>
+      .text-box:hover {
+        background-color: #2c2c2c !important;
+      }
+
+      @media (max-width: 767.98px) {
+        .img-wrap {
+          max-width: 100% !important;
+        }
+
+        .img-wrap img {
+          border-radius: 10px 10px 0 0 !important;
+          width: 100% !important;
+          height: auto !important;
+        }
+
+        .text-box {
+          border-radius: 0 0 10px 10px !important;
+        }
+      }
+    </style>
+
+
+
+    <!-- Leistungen -->
+    <section id="services" class="ftco-section bg-light">
+      <div class="container">
+        <div class="row justify-content-center pb-5 mb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <span class="subheading">Leistungen</span>
+            <h2>Wie wir arbeiten</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 services ftco-animate">
+            <div class="d-block d-flex">
+              <div class="icon d-flex justify-content-center align-items-center">
+                <span class="flaticon-workplace"></span>
+              </div>
+              <div class="media-body pl-3">
+                <h3 class="heading">Büroreinigung</h3>
+                <p>Wir sorgen für saubere und hygienische Arbeitsplätze mit höchster Sorgfalt und Professionalität.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 services ftco-animate">
+            <div class="d-block d-flex">
+              <div class="icon d-flex justify-content-center align-items-center">
+                <span class="flaticon-pool"></span>
+              </div>
+              <div class="media-body pl-3">
+                <h3 class="heading">Poolreinigung</h3>
+                <p>Saubere Pools durch gründliche Reinigung und regelmäßige Pflege für Ihre Sicherheit und Ihr Wohlbefinden.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 services ftco-animate">
+            <div class="d-block d-flex">
+              <div class="icon d-flex justify-content-center align-items-center">
+                <span class="flaticon-rug"></span>
+              </div>
+              <div class="media-body pl-3">
+                <h3 class="heading">Teppichreinigung</h3>
+                <p>Schonende und effektive Reinigung für Teppiche aller Art – für ein frisches Zuhause.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 services ftco-animate">
+            <div class="d-block d-flex">
+              <div class="icon d-flex justify-content-center align-items-center">
+                <span class="flaticon-kitchen"></span>
+              </div>
+              <div class="media-body pl-3">
+                <h3 class="heading">Küchenreinigung</h3>
+                <p>Wir reinigen Ihre Küche gründlich – hygienisch, sicher und zuverlässig.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 services ftco-animate">
+            <div class="d-block d-flex">
+              <div class="icon d-flex justify-content-center align-items-center">
+                <span class="flaticon-garden"></span>
+              </div>
+              <div class="media-body pl-3">
+                <h3 class="heading">Gartenpflege</h3>
+                <p>Von der Rasenpflege bis zur Unkrautentfernung – wir bringen Ihren Garten auf Vordermann.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 services ftco-animate">
+            <div class="d-block d-flex">
+              <div class="icon d-flex justify-content-center align-items-center">
+                <span class="flaticon-balcony"></span>
+              </div>
+              <div class="media-body pl-3">
+                <h3 class="heading">Fensterreinigung</h3>
+                <p>Streifenfreie Sauberkeit für klare Sicht – innen und außen, zuverlässig und sicher.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="ftco-section">
+      <div class="container">
+        <!-- Portfolio Title -->
+        <h2 class="text-center mb-2">Portfolio</h2>
+
+        <!-- Social Box directly after title -->
+        
+
+        <!-- Section Subtitle -->
+        <div class="row justify-content-center mt-3 mb-2"> <!-- Changed from mb-5 to mb-2 -->
+          <div class="col-md-8 text-center">
+            <h2 style="color: green; font-weight: bold; font-size: 2.2rem;">Unsere letzten Arbeiten</h2>
+          </div>
+        </div>
+
+
+        <!-- Landscape Images -->
+        <div class="row mb-4">
+          <!-- Section 1 -->
+          <div class="col-12 col-md-4 mb-4">
+            <div class="mb-2 fw-bold text-center text-primary">Sofareinigung</div>
+            <div class="d-flex flex-column">
+              <div class="text-center fw-semibold mb-1 text-danger">Vorher</div>
+              <img src="images/work1.jpeg" alt="Vorher Sofareinigung" class="img-fluid mb-2" style="aspect-ratio: 16/9; object-fit: cover; width: 100%;">
+              <div class="text-center fw-semibold mb-1 text-success">Nachher</div>
+              <img src="images/work11.jpeg" alt="Nachher Sofareinigung" class="img-fluid" style="aspect-ratio: 16/9; object-fit: cover; width: 100%;">
+            </div>
+          </div>
+
+          <!-- Section 2 -->
+          <div class="col-12 col-md-4 mb-4">
+            <div class="mb-2 fw-bold text-center text-primary">Matratzenreinigung</div>
+            <div class="d-flex flex-column">
+              <div class="text-center fw-semibold mb-1 text-danger">Vorher</div>
+              <img src="images/work2.jpeg" alt="Vorher Matratzenreinigung" class="img-fluid mb-2" style="aspect-ratio: 16/9; object-fit: cover; width: 100%;">
+              <div class="text-center fw-semibold mb-1 text-success">Nachher</div>
+              <img src="images/work22.jpeg" alt="Nachher Matratzenreinigung" class="img-fluid" style="aspect-ratio: 16/9; object-fit: cover; width: 100%;">
+            </div>
+          </div>
+
+          <!-- Section 3 -->
+          <div class="col-12 col-md-4 mb-4">
+            <div class="mb-2 fw-bold text-center text-primary">Autositze Reinigung</div>
+            <div class="d-flex flex-column">
+              <div class="text-center fw-semibold mb-1 text-danger">Vorher</div>
+              <img src="images/work3.jpeg" alt="Vorher Autositze Reinigung" class="img-fluid mb-2" style="aspect-ratio: 16/9; object-fit: cover; width: 100%;">
+              <div class="text-center fw-semibold mb-1 text-success">Nachher</div>
+              <img src="images/work33.jpeg" alt="Nachher Autositze Reinigung" class="img-fluid" style="aspect-ratio: 16/9; object-fit: cover; width: 100%;">
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Portrait Videos -->
+        <div class="row">
+          <div class="col-12 col-md-4 mb-4">
+            <video controls playsinline style="width: 100%; aspect-ratio: 9/16; object-fit: cover;">
+              <source src="videos/video1.mp4" type="video/mp4">
+              Ihr Browser unterstützt keine Videowiedergabe.
+            </video>
+          </div>
+          <div class="col-12 col-md-4 mb-4">
+            <video controls playsinline style="width: 100%; aspect-ratio: 9/16; object-fit: cover;">
+              <source src="videos/video2.mp4" type="video/mp4">
+              Ihr Browser unterstützt keine Videowiedergabe.
+            </video>
+          </div>
+          <div class="col-12 col-md-4 mb-4">
+            <video controls playsinline style="width: 100%; aspect-ratio: 9/16; object-fit: cover;">
+              <source src="videos/video3.mp4" type="video/mp4">
+              Ihr Browser unterstützt keine Videowiedergabe.
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Preise -->
+    <section id="pricing" class="ftco-section bg-light">
+      <div class="container">
+        <div class="row justify-content-center pb-5 mb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <span class="subheading mb-3">Unsere Dienstleistungen</span>
+            <h2>Preisliste</h2>
+          </div>
+        </div>
+        <div class="row">
+
+          <!-- Büroreinigung -->
+          <div class="col-md-6 col-lg-4 ftco-animate">
+            <div class="block-7">
+              <div class="text-center">
+                <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-building"></span></div>
+                <h4 class="heading-2">Büroreinigung</h4>
+                <span class="price"><sup>€</sup><span class="number">50</span></span>
+                <ul class="pricing-text mb-5">
+                  <li>Saubere und hygienische Arbeitsplätze</li>
+                  <li>Mit höchster Sorgfalt & Professionalität</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Poolreinigung -->
+          <div class="col-md-6 col-lg-4 ftco-animate">
+            <div class="block-7">
+              <div class="text-center">
+                <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-swimmer"></span></div>
+                <h4 class="heading-2">Poolreinigung</h4>
+                <span class="price"><sup>€</sup><span class="number">50</span></span>
+                <ul class="pricing-text mb-5">
+                  <li>Gründliche Reinigung & Pflege</li>
+                  <li>Für Ihre Sicherheit & Ihr Wohlbefinden</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Teppichreinigung -->
+          <div class="col-md-6 col-lg-4 ftco-animate">
+            <div class="block-7">
+              <div class="text-center">
+                <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-rug"></span></div>
+                <h4 class="heading-2">Teppichreinigung</h4>
+                <span class="price"><sup>€</sup><span class="number">50</span></span>
+                <ul class="pricing-text mb-5">
+                  <li>Schonende & effektive Reinigung</li>
+                  <li>Für Teppiche aller Art</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Küchenreinigung -->
+          <div class="col-md-6 col-lg-4 ftco-animate">
+            <div class="block-7">
+              <div class="text-center">
+                <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-utensils"></span></div>
+                <h4 class="heading-2">Küchenreinigung</h4>
+                <span class="price"><sup>€</sup><span class="number">50</span></span>
+                <ul class="pricing-text mb-5">
+                  <li>Gründliche & hygienische Reinigung</li>
+                  <li>Zuverlässig & sicher</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Gartenpflege -->
+          <div class="col-md-6 col-lg-4 ftco-animate">
+            <div class="block-7">
+              <div class="text-center">
+                <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-seedling"></span></div>
+                <h4 class="heading-2">Gartenpflege</h4>
+                <span class="price"><sup>€</sup><span class="number">50</span></span>
+                <ul class="pricing-text mb-5">
+                  <li>Rasenpflege & Unkrautentfernung</li>
+                  <li>Ihr Garten in Bestform</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Fensterreinigung -->
+          <div class="col-md-6 col-lg-4 ftco-animate">
+            <div class="block-7">
+              <div class="text-center">
+                <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-window-maximize"></span></div>
+                <h4 class="heading-2">Fensterreinigung</h4>
+                <span class="price"><sup>€</sup><span class="number">50</span></span>
+                <ul class="pricing-text mb-5">
+                  <li>Streifenfreie Sauberkeit innen & außen</li>
+                  <li>Zuverlässig und sicher</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Contact Section with Light Blue Background -->
+    <section id="contact" class="py-5" style="background-color: #eaf4fb;">
+      <div class="container">
+        <h2 class="text-center mb-5">Kontakt</h2>
+
+        <!-- Info Boxes -->
+        <div class="row mb-4">
+          <!-- Phone -->
+          <div class="col-md-4 mb-3">
+            <div class="p-3 text-center bg-white rounded shadow-sm h-100">
+              <i class="fa fa-phone fa-2x text-primary mb-2"></i>
+              <p class="mb-1"><strong>Telefon</strong></p>
+              <p class="mb-0 small"><a href="tel:+491738589541">+49 173 8589541</a></p>
+            </div>
+          </div>
+
+          <!-- Email -->
+          <div class="col-md-4 mb-3">
+            <div class="p-3 text-center bg-white rounded shadow-sm h-100">
+              <i class="fa fa-paper-plane fa-2x text-primary mb-2"></i>
+              <p class="mb-1"><strong>Email</strong></p>
+              <p class="mb-0 small"><a href="mailto:arbim.rushiti15@gmail.com">arbim.rushiti15@gmail.com</a></p>
+            </div>
+          </div>
+
+          <!-- Address -->
+          <div class="col-md-4 mb-3">
+            <div class="p-3 text-center bg-white rounded shadow-sm h-100">
+              <i class="fa fa-map-marker-alt fa-2x text-primary mb-2"></i>
+              <p class="mb-1"><strong>Adresse</strong></p>
+              <p class="mb-0 small text-primary">Hegelstraße 31, 72072 Tübingen</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form and Map -->
+        <div class="row">
+          <!-- Contact Form -->
+          <div class="col-md-7 mb-4">
+            <div class="bg-white p-4 rounded shadow-sm h-100 d-flex flex-column justify-content-between" style="min-height: 100%;">
+              <h4 class="mb-3">Schreiben Sie uns</h4>
+              <form method="POST" id="contactForm" class="flex-grow-1 d-flex flex-column justify-content-between">
+                <div>
+                  <div class="row">
+                    <div class="col-md-6 mb-3">
+                      <label for="name" class="form-label small">Ihr Name</label>
+                      <input type="text" class="form-control form-control-sm" id="name" name="name" placeholder="Name">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <label for="email" class="form-label small">E-Mail</label>
+                      <input type="email" class="form-control form-control-sm" id="email" name="email" placeholder="E-Mail">
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="subject" class="form-label small">Betreff</label>
+                    <input type="text" class="form-control form-control-sm" id="subject" name="subject" placeholder="Betreff">
+                  </div>
+                  <div class="mb-3">
+                    <label for="message" class="form-label small">Nachricht</label>
+                    <textarea class="form-control form-control-sm" id="message" name="message" rows="4" placeholder="Ihre Nachricht..."></textarea>
+                  </div>
+                </div>
+                <div>
+                  <button type="submit" class="btn btn-primary btn-sm">Nachricht senden</button>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <!-- Map and Car Box -->
+          <div class="col-md-5 mb-4">
+            <div class="bg-white p-3 rounded shadow-sm h-100 d-flex flex-column justify-content-between">
+              <!-- Map Header -->
+              <div>
+                <h5 class="text-center text-success fw-bold" style="font-size: 1.25rem;">
+                  Unser Einsatzgebiet
+                </h5>
+                <p class="text-center mb-3" style="font-size: 1rem;">
+                  <span class="text-primary fw-semibold">Tübingen</span>
+                  <span class="text-success">+ 50km Umgebung</span>
+                </p>
+
+                <!-- Google Map Embed for Hegelstraße 31 -->
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2660.2880529881716!2d9.037983215660237!3d48.51595997925427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4799f70f9df3ec07%3A0x8df33f885f3f8f2d!2sHegelstra%C3%9Fe%2031%2C%2072072%20T%C3%BCbingen%2C%20Deutschland!5e0!3m2!1sde!2sde!4v1719250000000"
+                  width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+              </div>
+
+              <!-- Car Box -->
+              <div class="car-box mt-3">
+                <div class="car-overlay"></div>
+                <div class="car-content">
+                  <i class="fa fa-map-marker"></i>
+                  <p class="title">Mobil unterwegs</p>
+                  <p class="subtitle">Wir kommen zu Ihnen!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Styles for car box -->
+    <style>
+      .car-box {
+        position: relative;
+        color: white;
+        text-align: center;
+        padding: 1.5rem;
+        border-radius: 0.5rem;
+        box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+        background: url('images/car.png') center/cover no-repeat;
+        min-height: 180px;
+        overflow: hidden;
+        width: 100%;
+      }
+
+      .car-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.5);
+        border-radius: 0.5rem;
+        z-index: 0;
+      }
+
+      .car-content {
+        position: relative;
+        z-index: 1;
+      }
+
+      .car-content i {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+        display: block;
+      }
+
+      .car-content .title {
+        margin-bottom: 0.25rem;
+        font-size: 1.25rem;
+        font-weight: bold;
+      }
+
+      .car-content .subtitle {
+        font-size: 0.875rem;
+      }
+    </style>
+
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/4917621897246" class="whatsapp-float" target="_blank" aria-label="Chat auf WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    <!-- Scroll to Top Button -->
+    <button id="scrollTopBtn" title="Nach oben">
+      <i class="fa fa-arrow-up"></i>
+    </button>
+
+    <!-- Scroll to Top Styles -->
+    <style>
+      #scrollTopBtn {
+        position: fixed;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 9999;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 50%;
+        padding: 4px 2px;
+        font-size: 20px;
+        cursor: pointer;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+        display: none;
+        transition: background-color 0.3s ease;
+      }
+
+      #scrollTopBtn:hover {
+        background-color: #0056b3;
+      }
+    </style>
+
+    <!-- Scroll to Top Script -->
+    <script>
+      const scrollBtn = document.getElementById("scrollTopBtn");
+
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 100) {
+          scrollBtn.style.display = "block";
+        } else {
+          scrollBtn.style.display = "none";
+        }
+      });
+
+      scrollBtn.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+    </script>
+
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
